@@ -28,7 +28,8 @@
 
 <form>
     <h2> 목표 및 설계 </h2>
-      <img width="auto" alt="image" src="https://github.com/Dongjanara/bodiscovery/assets/161558210/af0de789-82f8-418f-b328-e8bc12ab36d6">
+      <img width="auto" alt="image" align="center"
+        src="https://github.com/Dongjanara/bodiscovery/assets/161558210/af0de789-82f8-418f-b328-e8bc12ab36d6">
     <h2> [팀 공통 목표] </h2>
       <li> Spring에서 Mybatis을 활용하여 DB 연동을 위해 Spring의 의존성 추가, Mapper, DAO 구현에 대하여 공부를 하고 팀원들과 의견을 공유합니다. </li>
       <li> 기존 MVC2 모델을 활용한 기능들을 Spring MVC 로 변동하는 과정에서 코드를 어떤 방식으로 변환하면 되는지에 대해 팀원들과 상의하며 이 과정에서 협업 능력을 증진 시킵니다. </li>
@@ -69,5 +70,65 @@
   <form>
     <h2> 프로젝트 구조 </h2>
     <h3> ERD 설계 </h3>
-
+      <img width="auto" alt="image" align="center" 
+        src=https://github.com/Dongjanara/bodiscovery/assets/161558210/7959cd3e-b81a-4ad0-9e5a-602a66885c1a>
+    <h3> 서비스 구조 </h3>
+      <img width="auto" alt="스크린샷 2024-04-22 오후 4 02 46"   align="center"
+        src="https://github.com/Dongjanara/bodiscovery/assets/161558210/b9388881-51d9-48d7-b092-03212c94fa68">
+    <h2> 주요 핵심 기능 </h2>
+    <h3> 메인화면 </h3>
+      <img width="1512" alt="스크린샷 2024-04-09 오후 3 02 50" align="center"
+        src="https://github.com/Dongjanara/bodiscovery/assets/161558210/bff3925b-07dd-4981-8baa-2f1858162a0c">
+    <h3> 간편로그인 </h3>
+      <li> 네이버 / 카카오 간편 로그인이 가능합니다. </li>
+      <img width="400" alt="바디디-간편로그인" align="center"
+        src="https://github.com/Dongjanara/bodiscovery/assets/161558210/80df2b1d-6179-4698-b673-660fd6a8b47a">
+    <h3> 상품화면 </h3>
+      <li> 등록된 상품이 출력되어 보여집니다. </li>
+        <img width="auto" alt="상품보기-화면" align="center"
+          src="https://github.com/Dongjanara/bodiscovery/assets/161558210/d99145e7-55ad-4833-aef6-215d3efc49a5">
+      <li> 상품 선택시, 상품에 대한 세부내역이 출력됩니다. </li>
+        <img width="632" alt="스크린샷 2024-04-02 오전 8 59 53" align="center"
+          src="https://github.com/Dongjanara/bodiscovery/assets/161558210/df9d7984-833b-4419-92d7-f2a6a3e9bedf">
+    <h3> 장바구니 </h3>
+      <li> 장바구니가 비었을 경우, 안내 문구가 출력됩니다. </li>
+        <img width="544" alt="스크린샷 2024-04-02 오전 9 30 35" align="center" 
+          src="https://github.com/Dongjanara/bodiscovery/assets/161558210/ee157aba-3fe0-485b-acf4-48a9d274c36a">
+      <li> 장바구니에 상품이 있을 경우, 상품 번호를 기준으로 수량을 업데이트 합니다. </li>
+        <img width="1501" alt="스크린샷 2024-04-02 오전 9 30 06" align="center"
+          src="https://github.com/Dongjanara/bodiscovery/assets/161558210/8f65cc13-c0a8-416d-a388-eb31c70c95c1">
+    <h3> 간편결제 </h3>
+      <li> 카카오 / 토스 간편 결제가 가능합니다. </li>
+        <img width="400" alt="바디디-간편결제1" src="https://github.com/Dongjanara/bodiscovery/assets/161558210/83841dc0-b432-4de4-8af1-5a3d1f27e3c6">
+        <img width="300" alt="바디디-간편결제2" src="https://github.com/Dongjanara/bodiscovery/assets/161558210/4e06cb1f-315b-4c01-9a39-58381f28e538">
+        <img width="350" alt="바디디-간편결제3" src="https://github.com/Dongjanara/bodiscovery/assets/161558210/12d7ccf3-0d42-4236-bac2-76acdbaa6f3a">
+    <h3> 결제 성공 안내 </h3>
+      <li> 사용자 친화적 UI 구현 </li>
+      <img width="350" alt="바디디-간편결제3" align="center"
+        src="https://github.com/Dongjanara/bodiscovery/assets/161558210/85ba4320-eb4e-4512-b619-878e9f0d4b8e">
+    <h3> 식단 등록 </h3>
+      <li> 사용자가 섭취한 식단 등록이 가능합니다. </li> <br>
+        <img width="400" src="https://github.com/Dongjanara/bodiscovery/assets/161558210/deac70a2-3f51-427f-9273-0269b1b9310a">
+        <img width="400" src="https://github.com/Dongjanara/bodiscovery/assets/161558210/c0c5570a-c72d-48f0-8561-f6fc9cb419b9">
+      <li> 섭취 칼로리를 계산하여, 그래프 출력이 가능합니다. </li>
+        <img width="auto" src="https://github.com/Dongjanara/bodiscovery/assets/161558210/2c1d325f-75dc-4ca7-9cdd-d564c5dbfa85">
+    <h3> 카카오톡 상담하기 API </h3>
+      <li> 사용자와 관리자 간의 카카오톡 상담하기 기능이 가능합니다. </li>
+        <img width="400" src="https://github.com/Dongjanara/bodiscovery/assets/161558210/af3bf635-a1c2-4fc5-9dc1-5ff61f49d9ae">
+        <img width="400" src="https://github.com/Dongjanara/bodiscovery/assets/161558210/2aed441c-78a2-42ff-9a66-9e977cdfef2b">
+        <img width="400" src="https://github.com/Dongjanara/bodiscovery/assets/161558210/0d6c308f-a286-426a-af7f-5cfdb271e00d">
+        <img width="400" src="https://github.com/Dongjanara/bodiscovery/assets/161558210/5db5beaf-3558-40e0-b161-860d07e51e56">
+        <img width="400" src="[https://github.com/Dongjanara/bodiscovery/assets/161558210/5db5beaf-3558-40e0-b161-860d07e51e56">
+    <h2> 에필로그 </h2>
+    <h3> 기능 구현 후기 및 개선점 </h3>
+      <li> Spring으로 진행한 첫번째 프로젝트이기에 MyBatis 활용 및 mapper를 사용하여, 직접 쿼리문 작성, 초기 설정 부분에서 좀 어려운 부분이 있었으나, 
+        프로젝트를 진행하면서 점차 손에 익숙해지자 코드량도 줄어 가독성도 좋고, 수정 및 보완에도 강점이 있다고 몸소 느꼈습니다. 
+        하지만, 초기 계획 단계에서 Websocket 를 활용한 실시간 채팅 기능을 추가함에 많은 어려움에 부딪혔습니다. 이로 인해 기능을 보다 효율적으로 만들기 위한 추가 학습의 필요성을 느꼈습니다. </li>
+    <h3> 개선점 및 향후 계획 </h3> 
+      <li> 본 프로젝트에서는 사용자의 사용 환경이 Websocket 보다는 상담톡이 적합하다고 판단하여, 수정하게 되었습니다. 
+        하지만, Websocket, WebRTC를 추가 학습하여, 화상채팅도 가능하도록 구현하여, 사용자로 하여금 보다 더 가까운 서비스 제공을 할 예정입니다. </li>
+  </form>
+  <form>
+    <h3> 프로젝트 시연 영상 </h3>
+    <li> <img width="20" src="https://github.com/Dongjanara/bodiscovery/assets/161558210/40fcc3ae-104f-4d9a-a5ab-8288ecc40def"> https://youtu.be/pTpmstymQ7s </li>
   </form>
