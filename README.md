@@ -1,6 +1,7 @@
 <form align="center">
-  <h1> Bodiscovery - README, </h1>
+ <img width="80" src="https://github.com/Dongjanara/goodday/assets/161558210/a91a6c55-e67e-453b-ac0f-6867352352eb"> <h1> Bodiscovery - README, </h1>
 </form>
+
 <br>
 
 <form>
